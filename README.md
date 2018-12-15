@@ -1,2 +1,3 @@
 # TicTacToe
-My version of TicTacToe in C
+## Description
+This program is the implementation on in C.More details to follow.
