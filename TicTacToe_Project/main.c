@@ -7,29 +7,55 @@ Once this is accomplished, we can move into enabling two(2) users.
 */
 
 #include <stdio.h>
+#include <stdbool.h>
 
 int main()
 {
 	int x = 0;
 	int y = 0;
+	int counter = 1;
+	int user_1, user_2;
+	bool gameplay = false;
+	
 	int tictac_array[3][3];
 
 	for (y = 0; y < 3; y++)
 	{
 		for (x = 0; x < 3; x++)
 		{
-			tictac_array[y][x] = x + y;
+			tictac_array[y][x] = counter++;
 		}
 	}
-	printf("Array Indices:\n");
-	for (y = 0; y < 3; y++)
+
+	printf("////////////////////////////////////////////////////////////////////////////\n");
+	printf("////////////////////////////////////////////////////////////////////////////\n");
+	printf("////////////////////////////////////////////////////////////////////////////\n");
+	printf("This is a TicTacToe Game. To start, using the keypad, select the number to point to where you want to play\n");
+	printf("For example, entering 9 will place X on box 9 of the matrix.\n");
+	printf("\n");
+
+	while(!gameplay) // while the game is not over
 	{
-		for (x = 0; x < 3; x++)
+		for (y = 0; y < 3; y++)
 		{
-			printf("[%d]", tictac_array[y][x]);
+			for (x = 0; x < 3; x++)
+			{
+				printf("[%d]", tictac_array[y][x]);
+			}
+			printf("\n");
 		}
-		printf("\n");
+		printf("User 1, play enter your selection: \n");
+		scanf_s("%d", &user_1);
+		printf("User 1 entered %d \n", user_1);
+
+		printf("User 2, play enter your selection: \n");
+		scanf_s("%d", &user_2);
+		printf("User 2 entered %d \n", user_2);
+
+
+		gameplay = true;
 	}
+	
 	getchar();
 	return 0;
 }
