@@ -1,1 +1,16 @@
-﻿  TicTacToe_Project.vcxproj -> C:\Users\Ruto\Documents\Cpluplus_Programming\Projects\TicTacToe\rutodeno\TicTacToe\TicTacToe_Project\x64\Debug\TicTacToe_Project.exe
+﻿  main.c
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(48): warning C4047: 'function': 'int' differs in levels of indirection from 'char [6]'
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(48): warning C4024: 'replaceValue': different types for formal and actual parameter 1
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(48): warning C4047: 'function': 'int (*)[3]' differs in levels of indirection from 'int'
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(48): warning C4024: 'replaceValue': different types for formal and actual parameter 2
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(48): warning C4020: 'replaceValue': too many actual parameters
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(55): warning C4047: 'function': 'int' differs in levels of indirection from 'char [6]'
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(55): warning C4024: 'replaceValue': different types for formal and actual parameter 1
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(55): warning C4047: 'function': 'int (*)[3]' differs in levels of indirection from 'int'
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(55): warning C4024: 'replaceValue': different types for formal and actual parameter 2
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(55): warning C4020: 'replaceValue': too many actual parameters
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(61): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(81): warning C4028: formal parameter 1 different from declaration
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(81): warning C4028: formal parameter 2 different from declaration
+c:\users\ruto\documents\cpluplus_programming\projects\tictactoe\rutodeno\tictactoe\tictactoe_project\main.c(81): warning C4029: declared formal parameter list different from definition
+  TicTacToe_Project.vcxproj -> C:\Users\Ruto\Documents\Cpluplus_Programming\Projects\TicTacToe\rutodeno\TicTacToe\TicTacToe_Project\x64\Debug\TicTacToe_Project.exe
